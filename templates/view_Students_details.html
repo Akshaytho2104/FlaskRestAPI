@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+{% block body %}
+{% if Students %}
+<br>
+<div class="d-flex justify-content-between">
+    <h2><b>Students Details:</b></h2>
+    <div><a href="edit_Students/{{Students.id}}" class="btn btn-primary pull-right">Edit</a></div>
+</div>
+<h4 style="width: 80%;">{{{% extends 'layout.html' %}
+{% block body %}
+{% if Students %}
+<br>
+<div class="d-flex justify-content-between">
+    <h2><b>Students Details:</b></h2>
+    <div><a href="edit_Students/{{Students.id}}" class="btn btn-primary pull-right">Edit</a></div>
+</div>
+<h4 style="width: 80%;">{{Students.name}}</h4>
+<br>
+<hr>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Students ID</th>
+            <th>Name</th>
+            <th>Email ID</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{Students.id}}</td>
+            <td>{{Students.name}}</td>
+            <td>{{Students.email}}</td>
+            <td>{{Students.Age}}</td>
+            <td>{{Students.City}}</td>
+        </tr>
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}.name}}</h4>
+<br>
+<hr>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Students ID</th>
+            <th>Name</th>
+            <th>Email ID</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{Students.id}}</td>
+            <td>{{Students.name}}</td>
+            <td>{{Students.email}}</td>
+            <td>{{Students.Age}}</td>
+            <td>{{Students.City}}</td>
+        </tr>
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}
